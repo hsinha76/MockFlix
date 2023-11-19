@@ -154,7 +154,7 @@ fun createChip() {
             trailingIcon = {
                 if (it == "Categories") {
                     Icon(
-                        imageVector = Icons.Default.KeyboardArrowDown, contentDescription = null
+                        imageVector = Icons.Default.KeyboardArrowDown, contentDescription = null, tint = Color.White
                     )
                 }
             })
